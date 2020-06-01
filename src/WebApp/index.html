@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div id="Banner">
+            <span id="Title">Brood in Tijden van nood</span>
+            <span id="Links">
+                <a href="">Brood/Bolletjes</a>
+                <a href="">Harde Broodjes</a>
+                <a href="">Belegde Broodjes</a>
+            </span>
+            <img src="Profile-Image.jpg" id="Profile"><br><br><br><br>
+            <span id="ShoppingCartInfo">
+                <img src="ShoppingCart.jpg" id="ShoppingCart" onclick="BackupInJSON()">
+                <label id="Items"><span id="AantalItems">0</span> items</label>
+            </span>
+        </div>
+        <div id="broodjes">
+            <div class="BroodjesRegel">
+                <div id="Broodje1" class="Broodje">
+                    <img src="BelegdBroodje1.jpg" Class="BroodjesImage"><br>
+                    <div class="Align">
+                        Zonnebloem
+                    </div>
+                    <div class="Align">
+                        pit met kaas en
+                    </div>
+                    <div class="Align">
+                        tomaat
+                    </div><br>
+                    <div class="ButtonDiv">
+                        <button onclick="AddToCart(1)">Koop</button>
+                    </div>
+                </div>
+                <div id="Broodje2" class="Broodje">
+                    <img src="BelegdBroodje2.png" Class="BroodjesImage">
+                    <div class="Align">
+                        Baguette met
+                        </div>
+                        <div class="Align">
+                        sla, ei, kaas en
+                        </div>
+                        <div class="Align">
+                        tomaat
+                        </div><br>
+                        <div class="ButtonDiv">
+                            <button onclick="AddToCart(2)">Koop</button>
+                        </div>
+                </div>
+                <div id="Broodje3" class="Broodje">
+                    <img src="BelegdBroodje3.jpeg" Class="BroodjesImage">
+                    <div class="Align">
+                        Triangel met
+                        </div>
+                        <div class="Align">
+                        tomaat en brie
+                        </div><br><br>
+                        <div class="ButtonDiv">
+                            <button onclick="AddToCart(3)">Koop</button>
+                        </div>
+                </div>
+            </div>
+            <div class="BroodjesRegel">
+                <div id="Broodje4" class="Broodje">
+                    <img src="BelegdBroodje4.jpg" Class="BroodjesImage"><br>
+                    <div class="Align">
+                        Tarwe broodje met
+                    </div>
+                    <div class="Align">
+                        zaden, ham, rucola
+                    </div>
+                    <div class="Align">
+                        en tomaat
+                    </div><br>
+                    <div class="ButtonDiv">
+                        <button onclick="AddToCart(4)">Koop</button>
+                    </div>
+                </div>
+                <div id="Broodje5" class="Broodje">
+                    <img src="BelegdBroodje5.jpg" Class="BroodjesImage">
+                    <div class="Align">
+                        Kaiser met
+                        </div>
+                        <div class="Align">
+                        kip-pesto
+                        </div>
+                        <div class="Align">
+                        Salade
+                        </div><br>
+                        <div class="ButtonDiv">
+                            <button onclick="AddToCart(5)">Koop</button>
+                        </div>
+                </div>
+                <div id="Broodje6" class="Broodje">
+                    <img src="BelegdBroodje6.jpg" Class="BroodjesImage">
+                    <div class="Align">
+                        Volkoren broodjes
+                        </div>
+                        <div class="Align">
+                        met ei, rucola 
+                        </div>
+                        <div class="Align">
+                        en salami
+                        </div><br>
+                        <div class="ButtonDiv">
+                            <button onclick="AddToCart(6)">Koop</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
