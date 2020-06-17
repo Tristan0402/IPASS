@@ -58,3 +58,12 @@ html{
 #ShoppingCartInfo{
     width: 80px;
 }
+#Links a{
+    background-color: lightblue;
+    padding: 5px;
+    text-decoration: none;
+}
+#Links a:hover{
+    background-color: darkblue;
+    color: white;
+}
